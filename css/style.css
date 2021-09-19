@@ -1,0 +1,39 @@
+* {
+       box-sizing: border-box;
+       margin: 0;
+       padding: 0;
+}
+/* removendo a configuração padrão de um elemento ul */
+/* flex container */
+header, footer {
+    display: flex;
+    flex-direction: row;  /*linha horizontal ou em colunas vertical? */
+    justify-content: center;
+    align-items: center;
+     height: 100px;
+    background-color: #262626;
+    color: #fff;
+}
+
+ul {
+     margin: 0;
+     padding: 0;     
+}
+img {
+    margin: 10px;
+}
+li {
+    margin: 10px;
+    list-style: none;
+    width: 150px;
+    display: inline;
+}
+footer {
+    height: 50px;
+    background-color: #44b874;
+}
+
+.container {
+    margin: 0 auto;
+    width: 960px;
+}
