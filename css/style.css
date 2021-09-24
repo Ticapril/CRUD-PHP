@@ -27,6 +27,21 @@ li {
     list-style: none;
     width: 150px;
     display: inline;
+    text-transform: uppercase;
+    text-decoration: none;
+    
+}
+a:link, a:active {
+    text-decoration: none;
+    color: #000;
+    font-family: 'Lemon Milk';
+}
+
+
+
+a:hover{
+    color: #44b874;
+    transition: all 0.4s;
 }
 footer {
     height: 50px;
@@ -36,4 +51,11 @@ footer {
 .container {
     margin: 0 auto;
     width: 960px;
+}
+.heading {
+
+    text-align: center;
+    font-family: 'Lemon Milk';
+    font-size: 45px;
+    font-weight: 400;
 }

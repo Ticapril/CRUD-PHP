@@ -11,13 +11,12 @@
 </head>
 <body>
     <header>
-            <img src="img/Logo.png" alt="Logo do Projeto" title="Logo do Projeto">
+            <a href="?pagina=home"><img src="img/Logo.png" alt="Logo do Projeto" title="Logo do Projeto"></a>
             <div> 
                 <ul>
-                    <li><a href="#">Home</a></li>
-                    <li><a href="#">Sobre</a></li>
-                    <li><a href="#">Cadastrar</a></li>
-                    <li><a href="#">Login</a></li>
+                    <li><a href="?pagina=cursos">Cursos</a></li>
+                    <li><a href="?pagina=alunos">Alunos</a></li>
+                    <li><a href="?pagina=matriculas">Matriculas</a></li>
                 </ul>
             </div>
     </header>
